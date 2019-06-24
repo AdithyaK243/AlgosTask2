@@ -15,10 +15,10 @@ def parser(string):
 
 
 def main():
-    num = int(input("enter the no of strings:"))
+    num = int(input(""))
     strings = []
     for x in range(num):
-        x = str(input("enter the strings "))
+        x = str(input(""))
         strings.append(x)
 
     for string in strings:
